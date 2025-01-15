@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+<div class="navbar">
+    <div class="flex">
+    <div class="insure mx-1 text-white flex" style="font-family: Century Gothic;">⦾INSURE.AI</div>
+    <div class="content mx-20 px-20 flex space-x-3 text-sm" style="color: #B2BEB5;font-family:Century Gothic;">
+        <a>About</a>
+        <a>Privacy policy</a>
+        <a>Legal information</a>
+    </div>
+    <div class="toggle flex ml-auto">
+        <img src="a.png" alt="Flag" class="w-5 h-5 rounded-3xl">
+        <a class="text-sm text-white">EN</a>
+        <label for="theme-toggle" class="relative inline-block w-10 h-5 cursor-pointer ml-4">
+            <input type="checkbox" id="theme-toggle" class="sr-only peer">
+            <span class="block w-full h-full bg-gray-400 rounded-full peer-checked:bg-gray-700"></span>
+            <span class="absolute left-1 top-1 w-3 h-3 bg-white rounded-full transition-all peer-checked:translate-x-6"></span>
+          </label>
+          <div class="bars mx-4"> 
+            <i class="fa-regular fa-bell mx-2" style="color:grey"></i>         
+            <i class="fa-solid fa-bars mx-2" style="color: grey"></i>
+          </div>
+</div>
+</div>
+<div class="flex justify-between" style="font-family: Century Gothic;">
+    <div class="py-1">
+        <img src="3dface.webp" class="h-12 rounded-3xl">
+        <div>
+            <a class="text-white text-sm block">Alexander Green 23yr</a>
+            <a class="text-gray-300 text-sm block">3828 PIERMONT Dr</a>
+            <a class="text-gray-300" style="font-size: 75%;">BALANCE: </a>
+            <a class="text-white" style="font-size: 75%;">$1,233.23 > </a>
+
+
+        </div>
+    </div>
+    
+    <a class="text-white items-center py-10 px-15 mx-20 text-3xl">Damage Assessment</a>
+    <div class="my-10 py-1 flex items-center space-x-4">
+        <div class="flex">
+            <div class="flex">
+                <div class="w-7 h-7 bg-white border-2 border-grey-light mx-auto rounded-full text-xs text-grey-dark flex items-center justify-center">
+                    1
+                </div>
+            </div>
+        
+            <div class="flex text-center ml-2">
+                <div class="h-7 w-20  bg-white border-2 border-grey-light mx-auto rounded-full text-grey-dark flex items-center justify-center" style="font-size: 60%;">
+                    Damage survey
+                </div>
+            </div>
+
+            <div class="flex text-center  ml-2">
+                <div class="w-7 h-7 bg-white border-2 border-grey-light mx-auto rounded-full text-xs text-grey-dark flex items-center justify-center">
+                    3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="text-white ml-auto text-sm py-10 justify-end">Need help?</a>
+    <a href="#" class="px-2 text-sm py-10" style="color: #B2BEB5;">Ask your questions</a>
+</div>
+<div class="sm:col-span-10">
+    <a class="tex"></a>
+    <div>
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                 width="24" height="24" 
+                 viewBox="0 0 24 24" 
+                 fill="none" 
+                 stroke="currentColor" 
+                 class="w-6 h-6 stroke-2 group-hover:text-white">
+                <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+            </svg>
+            <span class="group-hover:text-white">Damage Assessment</span>
+        </button>
+    
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg class="w-6 h-6 stroke-2 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/>
+                <rect width="16" height="20" x="4" y="2" rx="2"/>
+                <path d="M9.5 8h5"/><path d="M9.5 12H16"/><path d="M9.5 16H14"/>
+            </svg>
+            <span class="group-hover:text-white">Valid Insurance</span>
+        </button>
+    
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                 class="w-6 h-6 stroke-2 group-hover:text-white" 
+                 fill="none" 
+                 viewBox="0 0 24 24" 
+                 stroke="currentColor">
+                <path d="M21 7h-3a2 2 0 0 1-2-2V2"/>
+                <path d="M21 6v6.5c0 .8-.7 1.5-1.5 1.5h-7c-.8 0-1.5-.7-1.5-1.5v-9c0-.8.7-1.5 1.5-1.5H17Z"/>
+                <path d="M7 8v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H15"/>
+                <path d="M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11"/>
+            </svg>
+            <span class="group-hover:text-white">My Documents</span>
+        </button>
+    
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg class="w-6 h-6 stroke-2 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/>
+                <path d="M7 14h.01"/>
+                <path d="M17 14h.01"/>
+                <rect width="18" height="8" x="3" y="10" rx="2"/>
+                <path d="M5 18v2"/>
+                <path d="M19 18v2"/>
+            </svg>
+            <span class="group-hover:text-white">My Vehicles</span>
+        </button>
+    
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 group-hover:text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
+            <span class="group-hover:text-white">Drafts</span>
+        </button>
+    
+        <button class="bg-black text-gray-400 px-4 py-2 rounded flex items-center space-x-2 group">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 group-hover:text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 00-1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.764-.384.93-.78.165-.398.142-.854-.108-1.204l-.527-.738a1.125 1.125 0 0 1-.12-1.45l.773-.774c.39-.39.998-.44 1.45-.12l.738.527c.35.25.806.272 1.204-.107.398-.165.71-.505.781-.929l.15-.894z"/>
+            </svg>
+            <span class="group-hover:text-white">Reminders</span>
+        </button>
+    </div>   
+    <div>
+        <img src="image.png" alt="" style="width: 150px;" class="py-10">
+    </div>
+    </div>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      </head>
+      
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      </head>
+
+      <div class="bg-[#121212] p-4 rounded-lg max-w-4xl mx-auto mt-[-600px]">
+        <div class="relative">
+            <a class="text-white items-center py-9 px-1 mx-2" style="font-family: Century Gothic;">Damage Information</a>
+    
+            <div class="flex items-center justify-between p-6 rounded-lg shadow-lg gap-x-6 ml-[-10px]" style="font-family: 'Poppins', sans-serif;">
+                <div class="flex items-center text-white rounded-lg px-3 py-3 hover:bg-blue-600 transition duration-300 bg-blue-600 space-x-3">
+                    <span class="text-x font-semibold">$790.58</span>
+                    <span class="ml-3 text-xs">Estimated Amount</span>
+                </div>
+                <div class="flex items-center bg-[#1f1e1f] rounded-lg px-7 py-1 hover:bg-gray-600 transition duration-300">
+                    <span class="text-l font-semibold text-white">2 weeks</span>
+                    <span class="ml-3 text-xs text-white">For Review</span>
+                </div>
+                <div class="flex items-center bg-[#1f1e1f] text-white rounded-lg px-6 py-1 hover:bg-gray-600 transition duration-300">
+                    <span class="text-l font-semibold text-white">4 parts</span>
+                    <span class="ml-3 text-xs text-white">Damaged</span>
+                </div>
+                <div class="flex items-center text-white bg-[#1f1e1f] rounded-lg px-6 py-1 hover:bg-gray-600 transition duration-300">
+                    <span class="text-l font-semibold text-white">Add a Crash Site &</span>
+                    <span class="ml-3 text-xs text-white">More Info</span>
+                </div>
+            </div>
+            <div class="flex items-start mt-6 gap-4">
+              <div class="bg-black text-gray-200 font-sans p-4 rounded-lg shadow-lg w-64">
+                  <ul class="list-none space-y-3 text-sm" style="font-family: Century Gothic; background-color: #1f1f1f; padding: 12px; border-radius: 8px;">
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Parts Overview</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Front</span>
+                          <span class="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Roof</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Left Side</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Hood</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Trunk</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Doors</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Windows</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Back</span>
+                          <span class="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Headlights</span>
+                          <span class="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Right Side</span>
+                          <span class="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Bumpers</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Mirrors</span>
+                      </li>
+                      <li class="flex items-center justify-between px-2 py-1 rounded-md hover:bg-gray-700 transition duration-300 cursor-pointer">
+                          <span>Wheels</span>
+                      </li>
+                  </ul>
+              </div>
+          
+              <div class="relative">
+                  <div class="flex bg-[#1f1f1f] rounded-full p-1 mb-2 w-fit">
+                      <button class="px-4 py-1 text-white bg-gray-700 rounded-full text-sm focus:outline-none">3D view</button>
+                      <button class="px-4 py-1 text-white text-sm focus:outline-none">Scheme view</button>
+                  </div>
+                  <img src="newcart.png" style="height: 400px; border-radius: 8px;">
+                  <p class="text-white text-left mt-2 font-bold" style="font-family: Century Gothic;">Parts Overview</p>
+                  <img src="pixelcut-export.png">
+              </div>
+          </div>
+
+          <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        </head>
+        <div style="background-color: #373737; padding: 15px; border-radius: 8px;">
+          <div class="text-white" style="font-family: Century Gothic, sans-serif; position: absolute; top: 0; right: -310px; margin: -15px;">
+              <a class="font-bold block">General Information</a>
+              <img src="pixelcut-export (2).png" class="rounded-3xl" style="height: 130px;width: 270px;">
+              
+              <div style="font-size: 12px;">
+                  <a class="text-gray-400">Audi A4 ,2008</a>
+              </div>
+          
+              <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 15px;">
+                  <div style="background-color: #121212; padding: 10px; border-radius: 8px; width: 120px; text-align: center; font-size: 12px;">
+                      <i class="fas fa-user" style="font-size: 18px;"></i><br>
+                      Driver Info
+                  </div>
+                  
+                  <div style="background-color: #121212; padding: 10px; border-radius: 8px; width: 120px; text-align: center; font-size: 12px;">
+                      <i class="fas fa-car" style="font-size: 18px;"></i><br>
+                      Car Details
+                  </div>
+              </div>
+              
+              <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <div style="background-color: #121212; padding: 10px; border-radius: 8px; width: 120px; text-align: center; font-size: 10px;">
+                      <i class="fas fa-exclamation-triangle" style="font-size: 18px;"></i><br>
+                      Accident Details
+                  </div>
+                  
+                  <div style="background-color: #121212; padding: 10px; border-radius: 8px; width: 120px; text-align: center; font-size: 10px;">
+                      <i class="fas fa-history" style="font-size: 18px;"></i><br>
+                      Accident History
+                  </div>
+              </div>
+          
+              <div style="margin-top: 13px; display: flex; justify-content: space-between; align-items: center;">
+                  <a class="text-white" style="font-family: Century Gothic; font-size: 12px;">UPLOADED PICTURES</a>
+                  <div style="display: flex; gap: 3px;">
+                      <a class="text-gray-400" style="font-size: 13px;">(15)</a>
+                      <a class="text-white" style="font-size: 13px;">View all</a>
+                  </div>
+              </div>
+              <img src="pixelcut-export (3).png" alt="" style="margin-top: 10px;height: 150px;width: 270px;">
+              <div style="margin-top: 15px; background-color: #1E3A8A; padding: 15px; border-radius: 15px; text-align: center; width: 250px; margin-left: auto; margin-right: auto;">
+                  <a class="text-white" style="font-family: Century Gothic; font-size: 15px; font-weight: bold;"> Go To Checkout</a>
+              </div>
+          </div>
+      </div>
+      
+      
+        
+</body>
+</html>
